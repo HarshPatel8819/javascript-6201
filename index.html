@@ -1,24 +1,43 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
-		<meta charset="utf-8" />
+		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<title></title>
-		<meta name="description" content="" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="stylesheet" href="./CSS/style.css" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Home</title>
+		<link rel="stylesheet" href="./style/style.css" />
+		<link
+			rel="stylesheet"
+			href="./node_modules/bootstrap/dist/css/bootstrap.min.css"
+		/>
+		<link
+			rel="stylesheet"
+			href="./node_modules/@fortawesome/fontawesome-free/css/all.min.css"
+		/>
 	</head>
 	<body>
-		<div id="page">
-			<h1 id="header">List</h1>
-			<h2>Buy groceries</h2>
-			<ul>
-				<li id="one"><em>fresh</em> figs</li>
-				<li id="two">pine nuts</li>
-				<li id="three">honey</li>
-				<li id="four">balsamic vinegar</li>
-			</ul>
-		</div>
-		<script src="Scripts/list.js"></script>
-	</body>
+		<nav class="navbar navbar-light" style="background-color: #e3f2fd;">
+			<div class="container-fluid">
+				<span class="navbar-text">WEBD6201 Lab-1</span>
+					<ul class="nav">
+						<li class="nav-item">
+							<a class="nav-link active" href="index.html">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="product.html" id="products">Products</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="services.html">Services</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="about.html">About</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="contact.html">Contact</a>
+						</li>
+					</ul>
+			</div>
+		</nav>
+		<script src="./scripts/app.js"></script>
+    </body>
 </html>
